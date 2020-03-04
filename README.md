@@ -1,1 +1,38 @@
-# SmartPhoneRecommendationSystem
+This Project include rating prediction based on reviews and Opinion mining of mobile features.
+### First part
+The objective of this project is to attempt the prediction of Amazon review ratings from the Unlocked Mobile Phones dataset.
+
+#### Supervised Learning Overview
+1. Converting training data to to a set of vectors of features.
+2. Build a model based on statistical properties of features in training dataset
+
+
+##### Models used in Projects are as below
+1. Multinomial Naive Bayes Model
+2. SGD Classifier
+3. Random Forest Classifier
+4. AdaBoost Classifier
+5. XGBoost Classifier
+
+
+##### For Each Text Document to classify
+1. Common data cleanup operations
+a. lower case and remove accenuated characters
+b. using NLTK stemmizers and lemmatizers
+2. extract features 
+2. predict from model to most likely outcome
+
+
+
+
+#### Neural Networks  Overview
+1. use of glove Embedding
+2. 1d convnet
+
+
+### Second part
+1. Sentiment classification by vader sentiment analyzer
+2. Topic Modeling
+3. Visualization by word Cloud
+4. Text Blob Feature Extraction
+5. 
